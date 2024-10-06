@@ -7,7 +7,7 @@ const loginTemplate = (onSubmit) => html`
 <section id="login-page" class="login">
             <form @submit =${onSubmit} id="login-form" action="" method="">
                 <fieldset>
-                    <legend>Login Form</legend>
+                    <legend>Login Form for New User</legend>
                     <p class="field">
                         <label for="email">Email</label>
                         <span class="input">
