@@ -14,7 +14,7 @@ test('Verify "All Books" link is visible', async ({ page }) => {
 test('Verify "Login" button is visible', async ({ page }) => {
   await page.goto('http://localhost:3000');
 
-  await page.waitForSelector('nav.navbar');
+  await page.waitForSelector('nav.navbarss');
 
   const loginButton = await page.$('a[href="/login"]');
 
